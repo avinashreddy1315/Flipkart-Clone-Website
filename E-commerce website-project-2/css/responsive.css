@@ -1,0 +1,39 @@
+@media screen and (max-width : 1200px) {
+    nav{
+        flex-direction: column;
+
+    }
+
+    
+}
+
+@media  screen and (max-width :1000px) {
+    nav ul{
+        flex-direction: column;
+    }
+    
+    header{
+        height: 32vh;
+    }
+
+    nav ul li{
+        margin: 3px 0px 3px 0px;
+    }
+    .logo{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width : 1500px) {
+    .cards{
+        display: flex;
+        overflow: scroll;
+    }
+
+    .slider{
+        width: 70vw;
+        height: 40vh;
+    }
+
+    
+}
